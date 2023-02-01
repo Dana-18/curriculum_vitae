@@ -1,3 +1,13 @@
+.informacion_personal ul li {
+
+  list-style: none;
+}
+
+.informacion_personal li {
+
+  list-style: none;
+}
+
 /*Visualizacion para computadoras*/
 @media only screen and (min-width: 601px) {
     * {
@@ -20,7 +30,7 @@
     
     }
     
-    .body {
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -49,6 +59,11 @@
       padding: 18px;
     }
 
+    #imagen {
+
+        border: 1px solid black;
+      }
+  
     .imagen {
       margin-bottom: 11px;
     }
@@ -107,7 +122,7 @@
 
     #diplomaa {
 
-      width: 450px;
+      width: 500px;
       height: 400px;
     
     }
@@ -117,7 +132,7 @@
 
     #diplomaaa {
 
-      width: 300px;
+      width: 470px;
       height: 300px;
     
     }
@@ -147,27 +162,41 @@
         grid-template-columns: 1fr 2fr;
         box-shadow: 0 35px 55px rgb(0,0,0,0.1);
         margin: 10px;
+        font-size: 10px;
+        
       
       }
       
-      .body {
+      body {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 10vh;
+        min-height: 5vh;
       }
 
       .izquierda {
-        position: relative;
+
+        position: center;
         background: rgb(159, 117, 66);
-        padding: 18px;
+        padding: 10px;
+        margin-right: 0px;
+        margin-left: -10px;
       }
       
       .derecha {
-        border-left: 15px;  
+ 
+        border-left: 11px;  
         position: relative;
         background:rgb(244, 238, 228);
         padding: 20px;
+      margin-right: -25px;
+      }
+
+      #imagen {
+
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
       }
   
       .nombre {
@@ -257,4 +286,10 @@
       .boton:hover {
         cursor: pointer;
       }
+
+      #correo {
+        font-size: 8px;
+      }
     }
+
+    
