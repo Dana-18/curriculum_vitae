@@ -2,10 +2,20 @@
 
 function mostrar() {
 
-    document.getElementById('img').style.display = 'block';
+    document.getElementById('diploma1').style.display = 'block';
 }
 
 function ocultar() {
 
-    document.getElementById('img').style.display = 'none';
+    document.getElementById('diploma1').style.display = 'none';
+}
+
+function mostrar2() {
+
+    document.getElementById('diploma2').style.display = 'block';
+}
+
+function ocultar2() {
+
+    document.getElementById('diploma2').style.display = 'none';
 }
