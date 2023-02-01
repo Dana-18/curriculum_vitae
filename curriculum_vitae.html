@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculum</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contenedor">
+        <div class="izquierda">
+            <div class="imagen">
+                <img src ="D:\programar\practica\cv imagen.jpg" alt="imagen de una chica" id="imagen">
+            </div>
+            <div class="informacion_personal">
+                <h2 class="sobre mi" >Sobre mi</h2>
+                <li>
+                    <span class="texto">Fecha de nacimiento: </span>
+                    <span class="texto">6/5/1988</span>
+                </li>
+                <li>
+                    <span class="texto">Lugar de nacimiento: </span>
+                    <span class="texto"> Mendoza, Argentina</span>
+                </li>
+                <li>
+                    <span class="texto">Direccion: </span>
+                    <span class="texto">6845 W Dallas St</span>
+                </li>
+
+                <h2 id="contacto">Contacto</h2>
+                <ul>
+                    <li>
+                        <span class="icono de telefono"></span>
+                        <span class="texto">(484) 595-294</span>
+                    </li>
+                    <li>
+                        <span class="icono de email "></span>
+                        <span class="texto">zoey.phillips@example.com</span>
+                    </li>
+                </ul>
+                
+                <h2 id="habilidades" >Habilidades</h2>
+                <ul>
+                    <li>
+                        <span class="texto">Diseño de renders</span>
+                    </li>
+
+                    <li>
+                        <span class="texto">Modelado en 3D</span>
+                    </li>
+                    <li>
+                        <span class="texto">Diseño de planos</span>
+                    </li>
+
+                    <li>
+                        <span class="texto">presupuestación</span>
+                    </li>
+                </ul>
+
+                <h2 id="idiomas" >Idiomas</h2>
+                <ul>
+                    <li>
+                        <span class="texto">Inglés - Avanzado</span>
+                    </li>
+
+                    <li>
+                        <span class="texto">Italiano - Intermedio</span>
+                    </li>
+                    <li>
+                        <span class="texto">Francés - Básico</span>
+                    </li>
+                </ul>
+
+                <h2 id="intereses" >Intereses</h2>
+                 <ul>
+                     <li>
+                     <span class="texto">Actividades al aire libre, literatura y cine clasico</span>
+                    </li>
+                 </ul>
+                
+                 <h2 id="diplomas"> Diplomas</h2>
+                 <span class="boton" onclick="mostrar();" type="button"><i class="fa fa-files-o" aria-hidden="true"></i></span>
+                 <span class="click">Dar click aqui para mostrar diploma</span>
+                 <div id="diploma1">
+                    <span class="boton" onclick="ocultar();" type="button"><i class="fa fa-files-o" aria-hidden="true"></i></span>
+                    <span class="click">Cerrar diploma</span>
+                    <img src="diploma-1.jpg" alt="Diploma de arquitectura" id="diploma1">
+                 </div>
+                 
+    </div>
+            </div>      
+        </div>
+        
+        <div class="derecha">
+        <div class="nombre">
+            <h1 id="nombre">Noelia Aguirre</h1>
+            <h2 id="profesion" >Arquitecta</h2>
+        </div>
+            <div class="informacion laboral">
+                <h2 id="experencia">Experencia laboral</h2>
+                <h3 class="titulo3"> Arquitecta</h3>
+                <h4 class="titulo4"> Estudio de arquitectura 2019-2022</h4>
+                 <ul>
+                   <li>
+                    <span class="texto">Maquetación de planes para edificios residenciales.</span>
+                   </li> 
+                   <li>
+                    <span class="texto">Realización de renders.</span>
+                   </li>
+                   <li>
+                    <span class="texto">Realizacion de presupuesto de obras.</span>
+                   </li>
+                 </ul>
+                
+                 <h3 class="titulo3"> Asistente</h3>
+                 <h4 class="titulo4"> Estudio de arquitectura 2014-2017</h4>
+                  <ul>
+                    <li>
+                     <span class="texto">Trato con clientes.</span>
+                    </li> 
+                    <li>
+                     <span class="texto">Organizacion de archivos.</span>
+                    </li>
+                    <li>
+                     <span class="texto">Diseño de renders.</span>
+                    </li>
+                  </ul>
+                 
+
+            </div>
+
+            <div class="Experencia academica">
+                <h2 id="formación"> formación</h2>
+                <h3 class="titulo3"> Escuela de arquitectura</h3>
+                <h4 class="titulo4"> Carrera de arquitectura Enero 2018 - Marzo 2021</h4>
+              
+                <h3 class="titulo3"> Universidad de arquitectura</h3>
+                <h4 class="titulo4"> Master en diseño de edificios 2014-2015</h4>
+            
+                <h3 class="titulo3"> Universidad de Arquitectura</h3>
+                <h4 class="titulo4"> Curso de modelado en 3D 2009-2014</h4>
+              
+            </div>
+        </div>
+    </div>
+
+    <script src="java.js">
+
+    </script>   
+</body>
+</html>

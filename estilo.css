@@ -1,0 +1,222 @@
+/*Visualizacion para computadoras*/
+@media only screen and (min-width: 601px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+  .contenedor {  
+      position: relative;
+      width: 95%;
+      max-width: 1000px;
+      min-height: 1000px;
+      background: #fff;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+      margin: 10px;
+    
+    }
+    
+    .body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    
+    }
+    .izquierda {
+      position: relative;
+      background: rgb(159, 117, 66);
+      padding: 18px;
+    }
+    
+    .derecha {
+      border-left: 15px;  
+      position: relative;
+      background:rgb(244, 238, 228);
+      padding: 20px;
+    
+    }
+
+    .nombre {
+        position: relative;
+      margin-left: -20px;
+      margin-right: -20px;
+      background: rgb(120, 81, 33);
+      padding: 18px;
+    }
+
+    .imagen {
+      margin-bottom: 11px;
+    }
+
+    .texto {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .titulo4 {
+      margin-bottom: 9px;
+      font-family: 'Merriweather', serif;  
+      color: rgb(171, 171, 171);
+    }
+
+    .titulo3 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: rgb(75, 74, 74);
+    }
+
+    #nombre {
+      margin-bottom: 5px;
+    }
+
+    #experencia {
+      margin-top: 10px;
+    }
+
+    #habilidades {
+      margin-top: 10px;
+    }
+
+    #idiomas {
+      margin-top: 10px;
+    }
+
+    #intereses {
+      margin-top: 10px;
+    }
+
+    #contacto {
+      margin-top: 10px;
+    }
+
+    #formación {
+      margin-top: 7px;
+    }
+    
+    #profesion {
+      font-family: 'Quicksand', sans-serif;
+    }
+  }
+
+
+  /* version de dispositivos mobiles*/
+@media only screen and (max-width: 600px) {
+    *  { 
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      .contenedor {  
+        position: relative;
+        width: 95%;
+        max-width: 1000px;
+        min-height: 1000px;
+        background: #fff;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+        margin: 10px;
+      
+      }
+      
+      .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+      }
+
+      .izquierda {
+        position: relative;
+        background: rgb(159, 117, 66);
+        padding: 18px;
+      }
+      
+      .derecha {
+        border-left: 15px;  
+        position: relative;
+        background:rgb(244, 238, 228);
+        padding: 20px;
+      }
+  
+      .nombre {
+        position: relative;
+        margin-left: -20px;
+        margin-right: -20px;
+        background: rgb(120, 81, 33);
+        padding: 18px;
+      }
+  
+      .imagen {
+        margin-bottom: 11px;
+      }
+  
+      .texto {
+        font-family: 'Playfair Display', serif;
+      }
+  
+      .titulo4 {
+        margin-bottom: 9px;
+        font-family: 'Merriweather', serif;  
+        color: rgb(171, 171, 171);
+      }
+  
+      .titulo3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(75, 74, 74);
+      }
+  
+      #nombre {
+        margin-bottom: 5px;
+      }
+  
+      #experencia {
+        margin-top: 10px;
+      }
+  
+      #habilidades {
+        margin-top: 10px;
+      }
+  
+      #idiomas {
+        margin-top: 10px;
+      }
+  
+      #intereses {
+        margin-top: 10px;
+      }
+  
+      #contacto {
+        margin-top: 10px;
+      }
+  
+      #formación {
+        margin-top: 7px;
+      }
+      
+      #profesion {
+        font-family: 'Quicksand', sans-serif;
+      }
+
+      #diplomas {
+        margin-top: 10px;
+      }
+
+      #icono {
+        display: none;
+      }
+      #diploma1 {
+        display: none;
+
+      }
+
+      .boton:hover {
+        cursor: pointer;
+      }
+    }
